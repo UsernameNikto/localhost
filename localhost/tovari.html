@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewort" content="width=device-width, initial-scale=1.0">
+		<title>Товары</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			form{
+				height: 300px;
+				width: 600px;
+				background-color: rgb(231, 255, 203);
+				position: absolute;
+				transform: translate(-50%,-50%);
+				top: 50%;
+				left: 50%;
+				border-radius: 10px;
+				backdrop-filter: blur(10px);
+				border: 2px solid rgba(255,255,255,0.1);
+				box-shadow: 0 0 40px rgba(8,7,16,0.6);
+				padding: 50px 35px;
+				display: flex;
+				justify-content: space-between;
+				align-content: space-around;
+				flex-wrap: nowrap;
+				align-items: center;
+			}
+			input{
+				display: block;
+                margin-top: 15px;
+                margin-bottom: 15px;
+				height: 50px;
+				width: 475px;
+				padding: 0 10px;
+				font-size: 25px;
+                background-color: rgb(180, 255, 220);
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+			}
+			label{
+				display: flex;
+				font-size: 75px;
+				font-weight: 500;
+                flex-direction: column;
+                justify-content: space-between;
+                align-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="N0"></button>
+		<button class="fonslovo1"><a href='admin.html'>Назад</a></button>
+		<button class="N0"></button>
+        <block>
+            <input class="Plus" type="submit" name="commit" value="+">
+        </block>
+        <form>
+            <block>
+                <input type="submit" name="commit" value="Биде">
+                <input type="submit" name="commit" value="Клавиатура мех.">
+                <input type="submit" name="commit" value="Клавиатура мем.">
+            </block>
+            <block>
+                <input class="Edit" type="submit" name="commit" value="E">
+                <input class="Edit" type="submit" name="commit" value="E">
+                <input class="Edit" type="submit" name="commit" value="E">
+            </block>
+            <block>
+                <input class="Krest" type="submit" name="commit" value="X">
+                <input class="Krest" type="submit" name="commit" value="X">
+                <input class="Krest" type="submit" name="commit" value="X">
+            </block>
+        </form>
+	</body>
+</html>

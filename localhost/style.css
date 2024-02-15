@@ -1,0 +1,559 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: rgb(220, 255, 180);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.N0 {
+    width: 325px;
+    height: 50px;
+    background-color: rgb(220, 255, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+}
+
+.L1 {
+    font-size: 15px;
+}
+
+.F1 {
+    display: flex;
+}
+
+.Krest {
+	display: block;
+	height: 50px;
+	width: 50px;
+	padding: 0 10px;
+	font-size: 25px;
+    background-color: rgb(255, 180, 180);
+    color: rgb(255, 0, 0);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.Edit {
+    display: block;
+	height: 50px;
+	width: 50px;
+	padding: 0 10px;
+	font-size: 25px;
+    background-color: rgb(180, 206, 255);
+    color: rgb(0, 81, 255);
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.Plus {
+    display: block;
+	height: 50px;
+	width: 50px;
+	padding: 0 10px;
+	font-size: 25px;
+    background-color: rgb(183, 255, 180);
+    color: rgb(0, 255, 0);
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.sait {
+    width: 1000px;
+    height: 2700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.vershina {
+    width: 1000px; 
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nazvanie {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.menyshka {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.vslova {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vslovo1 {
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.fonslovo {
+    width: 325px;
+    height: 50px;
+    background-color: rgb(180, 255, 220);
+    font-size: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.FS {
+    width: 175px;
+    height: 50px;
+    background-color: rgb(180, 255, 220);
+    font-size: 20px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fonslovo1 {
+    width: 75px;
+    height: 50px;
+    background-color: rgb(180, 255, 220);
+    font-size: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stranica {
+    width: 1000px;
+    height: 2625px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.chast1 {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.chasttext1 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.zagalovok1 {
+    margin-top: 25px;
+    font-size: 50px;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+.fontext1 {
+    width: 125px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 250px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image1 {
+    width: 475px;
+    height: 300px;
+}
+
+.chast2 {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2 {
+    width: 400px;
+    height: 300px;
+}
+
+.chasttext2 {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.zagalovok2 {
+    width: 500px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    color: rgb(90, 90, 90);
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.chast3 {
+    width: 1000px;
+    height: 400px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.chasttext3 {
+    width: 400px;
+    height: 300px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.zagalovok3 {
+    width: 500px;
+    height: 100px;
+    font-size: 35px;
+}
+
+.text3 {
+    color: rgb(90, 90, 90);
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.image3 {
+    width: 500px;
+    height: 300px;
+}
+
+.chast4 {
+    width: 1000px;
+    height: 350px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.zagalovok4 {
+    width: 1000px;
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vozmognosti {
+    width: 1000px;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vozmognost {
+    width: 200px;
+    height: 250px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vozmognost1 {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vozmognost2 {
+    width: 200px;
+    height: 100px;
+}
+
+.vozmognost2 img {
+    width: 200px;
+    height: 100px;
+}
+
+.vozmognost3 {
+    width: 200px;
+    height: 50px;
+    color: rgb(90, 90, 90);
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.vozmognost4 {
+    width: 200px;
+    height: 25px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.chast5 {
+    width: 1000px;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.image5 {
+    width: 500px;
+    height: 300px;
+}
+
+.image5 img {
+    width: 500px;
+    height: 300px;
+}
+
+.chasttext5 {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.zagalovok5 {
+    width: 1000px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.text5 {
+    color: rgb(90, 90, 90);
+    font-size: 19px;
+}
+
+.fontext5 {
+    margin-top: 35px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.fontext51 {
+    width: 125px;
+    height: 50px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fontext52 {
+    width: 125px;
+    height: 50px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chast6 {
+    width: 1000px;
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.text6 {
+    color: rgb(90, 90, 90);
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.podtexti6 {
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.podtext6 {
+    width: 300px;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fontext6 {
+    width: 125px;
+    height: 50px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.niz {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(255, 222, 77);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.podniz {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagalovokniz {
+    font-size: 25px;
+}
+
+.nslova {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.nslovo {
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

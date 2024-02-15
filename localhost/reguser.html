@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewort" content="width=device-width, initial-scale=1.0">
+		<title>Регестрация</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			form{
+				height: 300px;
+				width: 450px;
+				background-color: rgb(231, 255, 203);
+				position: absolute;
+				transform: translate(-50%,-50%);
+				top: 50%;
+				left: 50%;
+				border-radius: 10px;
+				backdrop-filter: blur(10px);
+				border: 2px solid rgba(255,255,255,0.1);
+				box-shadow: 0 0 40px rgba(8,7,16,0.6);
+				padding: 50px 35px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-content: space-around;
+				flex-wrap: wrap;
+				align-items: center;
+			}
+			input{
+				display: block;
+				height: 50px;
+				width: 300px;
+				background-color: #fff;
+				border-radius: 10px;
+				padding: 0 10px;
+				margin-top: 8px;
+				font-size: 14px;
+				font-weight: 300;
+			}
+			label{
+				display: block;
+				margin-top: 30px;
+				font-size: 16px;
+				font-weight: 500;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="N0"></button>
+		<button class="fonslovo1"><a href='SLMSL.html'>Назад</a></button>
+		<form method="post" action="reguser.php">
+			<p><h3>Введите данные нового пользователя</h3></p>
+			<label for="login">Логин</label>
+			<input type="login" name="login" value="" placeholder="Логин">
+			<label for="password">Пароль</label>
+			<input type="password" name="password" value="" placeholder="Пароль">
+			<input class="fonslovo" type="submit" name="commit" value="Зарегистрировать пользователя">
+		</form>
+	</body>
+</html>

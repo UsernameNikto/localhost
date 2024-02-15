@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewort" content="width=device-width, initial-scale=1.0">
+	<title>СЛМСЛ</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.form_1 {
+			height: 300px;
+			width: 450px;
+			margin-top: 200px;
+			background-color: rgb(231, 255, 203);
+			transform: translate(-50%, -50%);
+			border-radius: 10px;
+			backdrop-filter: blur(10px);
+			border: 2px solid rgba(255, 255, 255, 0.1);
+			box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+			padding: 50px 35px;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			align-content: space-around;
+		}
+
+		.form_2 {
+			margin-left: 400px;
+			margin-top: 200px;
+			height: 300px;
+			width: 450px;
+			background-color: rgb(231, 255, 203);
+			transform: translate(-50%, -50%);
+			border-radius: 10px;
+			backdrop-filter: blur(10px);
+			border: 2px solid rgba(255, 255, 255, 0.1);
+			box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+			padding: 50px 35px;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			align-content: space-around;
+		}
+
+		input {
+			display: block;
+			height: 50px;
+			width: 300px;
+			background-color: #fff;
+			border-radius: 10px;
+			padding: 0 10px;
+			margin-top: 8px;
+			font-size: 14px;
+			font-weight: 300;
+		}
+
+		label {
+			display: flex;
+			font-size: 100px;
+			font-weight: 500;
+			flex-direction: column;
+			justify-content: space-between;
+			align-content: space-around;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.block {
+			margin-top: 300px;
+			height: 300px;
+			width: 1200px;
+			display: flex;
+			flex-wrap: nowrap;
+    		flex-direction: row;
+    		align-content: space-between;
+    		justify-content: space-between;
+    		align-items: baseline;
+		}
+
+	</style>
+</head>
+<body>
+	<block class="block">
+		<form class="form_1" action="autoreguser.html" method="post">
+			<input class="fonslovo" type="submit" name="commit" value="Войти">
+		</form>
+		<label>СЛМСЛ</label>
+		<form class="form_2" action="reguser.html" method="post">
+			<input class="fonslovo" type="submit" name="commit" value="Регестрация">
+		</form>
+	</block>
+</body>
+</html>
